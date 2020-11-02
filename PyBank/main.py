@@ -1,8 +1,12 @@
 import os
 import csv
 
-month = 0
+
+total_months = 0
 total = 0
+
+
+
 csvpath = os.path.join('Resources', 'budget_data.csv')
 with open(csvpath, "r") as csvfile:   
     csvreader = csv.reader(csvfile, delimiter=",")
@@ -10,9 +14,10 @@ with open(csvpath, "r") as csvfile:
     header = next(csvreader)
    
     for row in csvreader:
-        month = month + 1
-        
+        total_months += 1
+        total = total + int(row[1])
 
-print(f"Total Months: {month}")
+print(f"Total Months: {total_months}")
+print(f"Total Profit: ${total:0,.2f}")
 
     
