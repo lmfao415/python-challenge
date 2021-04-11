@@ -17,7 +17,7 @@ reads the financial data listed in [budget_data.csv](https://github.com/lmfao415
 
   * The greatest decrease in losses (date and amount) over the entire period
 
-Here are the results as printed to the [budget_analysis](https://github.com/lmfao415/python-challenge/blob/main/PyBank/analysis/budget_analysis) text file
+  Here are the results as printed to the [budget_analysis](https://github.com/lmfao415/python-challenge/blob/main/PyBank/analysis/budget_analysis) text file
 ![Here are the results](https://github.com/lmfao415/python-challenge/blob/main/PyBank/analysis/analysis.png?raw=true)
 
 
