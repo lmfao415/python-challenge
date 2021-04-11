@@ -1,4 +1,4 @@
-# python-challenge
+# Python Analysis
 
 This repository contains two projects involving Python analysis of two datasets in CSV format. 
 
